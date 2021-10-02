@@ -20,6 +20,7 @@ public class HttpClient {
 
     public static void main(String[] args) throws URISyntaxException, IOException {
         URIBuilder uriBuilder = new URIBuilder("http://localhost:8801/");
+
         List<NameValuePair> list = new LinkedList<>();
         BasicNameValuePair param1 = new BasicNameValuePair("key", "value");
 
