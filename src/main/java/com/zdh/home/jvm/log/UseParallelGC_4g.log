@@ -1,0 +1,16 @@
+Java HotSpot(TM) 64-Bit Server VM (25.77-b03) for windows-amd64 JRE (1.8.0_77-b03), built on Mar 20 2016 22:01:33 by "java_re" with MS VC++ 10.0 (VS2010)
+Memory: 4k page, physical 33410456k(22965020k free), swap 35507608k(21985540k free)
+CommandLine flags: -XX:InitialHeapSize=4294967296 -XX:MaxHeapSize=4294967296 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:-UseLargePagesIndividualAllocation -XX:+UseParallelGC 
+2021-10-02T13:16:05.834+0800: 0.592: [GC (Allocation Failure) [PSYoungGen: 1048576K->174588K(1223168K)] 1048576K->263391K(4019712K), 0.0326284 secs] [Times: user=0.08 sys=0.24, real=0.03 secs] 
+2021-10-02T13:16:05.984+0800: 0.742: [GC (Allocation Failure) [PSYoungGen: 1223164K->174588K(1223168K)] 1311967K->427229K(4019712K), 0.0468829 secs] [Times: user=0.16 sys=0.31, real=0.05 secs] 
+2021-10-02T13:16:06.145+0800: 0.904: [GC (Allocation Failure) [PSYoungGen: 1223164K->174591K(1223168K)] 1475805K->587152K(4019712K), 0.0383575 secs] [Times: user=0.28 sys=0.16, real=0.04 secs] 
+2021-10-02T13:16:06.289+0800: 1.048: [GC (Allocation Failure) [PSYoungGen: 1223167K->174584K(1223168K)] 1635728K->737111K(4019712K), 0.0373629 secs] [Times: user=0.34 sys=0.09, real=0.04 secs] 
+Heap
+ PSYoungGen      total 1223168K, used 647118K [0x000000076ab00000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 1048576K, 45% used [0x000000076ab00000,0x00000007878759b0,0x00000007aab00000)
+  from space 174592K, 99% used [0x00000007b5580000,0x00000007bfffe1c0,0x00000007c0000000)
+  to   space 174592K, 0% used [0x00000007aab00000,0x00000007aab00000,0x00000007b5580000)
+ ParOldGen       total 2796544K, used 562527K [0x00000006c0000000, 0x000000076ab00000, 0x000000076ab00000)
+  object space 2796544K, 20% used [0x00000006c0000000,0x00000006e2557da8,0x000000076ab00000)
+ Metaspace       used 3857K, capacity 4572K, committed 4864K, reserved 1056768K
+  class space    used 429K, capacity 460K, committed 512K, reserved 1048576K

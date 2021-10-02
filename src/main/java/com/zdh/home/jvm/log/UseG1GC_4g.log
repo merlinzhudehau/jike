@@ -1,0 +1,17 @@
+Java HotSpot(TM) 64-Bit Server VM (25.77-b03) for windows-amd64 JRE (1.8.0_77-b03), built on Mar 20 2016 22:01:33 by "java_re" with MS VC++ 10.0 (VS2010)
+Memory: 4k page, physical 33410456k(22904548k free), swap 35507608k(21950552k free)
+CommandLine flags: -XX:InitialHeapSize=4294967296 -XX:MaxHeapSize=4294967296 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseG1GC -XX:-UseLargePagesIndividualAllocation 
+2021-10-02T13:33:25.577+0800: 0.282: [GC pause (G1 Evacuation Pause) (young) 204M->82M(4096M), 0.0126990 secs]
+2021-10-02T13:33:25.613+0800: 0.319: [GC pause (G1 Evacuation Pause) (young) 260M->146M(4096M), 0.0113993 secs]
+2021-10-02T13:33:25.644+0800: 0.350: [GC pause (G1 Evacuation Pause) (young) 324M->203M(4096M), 0.0112517 secs]
+2021-10-02T13:33:25.679+0800: 0.385: [GC pause (G1 Evacuation Pause) (young) 381M->266M(4096M), 0.0111516 secs]
+2021-10-02T13:33:25.710+0800: 0.415: [GC pause (G1 Evacuation Pause) (young) 444M->324M(4096M), 0.0107130 secs]
+2021-10-02T13:33:25.740+0800: 0.445: [GC pause (G1 Evacuation Pause) (young) 502M->383M(4096M), 0.0111895 secs]
+2021-10-02T13:33:25.770+0800: 0.476: [GC pause (G1 Evacuation Pause) (young) 561M->439M(4096M), 0.0105127 secs]
+2021-10-02T13:33:25.804+0800: 0.509: [GC pause (G1 Evacuation Pause) (young) 641M->515M(4096M), 0.0139848 secs]
+2021-10-02T13:33:25.861+0800: 0.566: [GC pause (G1 Evacuation Pause) (young) 779M->607M(4096M), 0.0168107 secs]
+2021-10-02T13:33:25.910+0800: 0.615: [GC pause (G1 Evacuation Pause) (young) 881M->689M(4096M), 0.0161081 secs]
+2021-10-02T13:33:26.046+0800: 0.751: [GC pause (G1 Evacuation Pause) (young) 1193M->839M(4096M), 0.0254627 secs]
+2021-10-02T13:33:26.114+0800: 0.819: [GC pause (G1 Evacuation Pause) (young) 1225M->945M(4096M), 0.0196484 secs]
+2021-10-02T13:33:26.189+0800: 0.894: [GC pause (G1 Evacuation Pause) (young) 1447M->1087M(4096M), 0.0267909 secs]
+2021-10-02T13:33:26.311+0800: 1.016: [GC pause (G1 Evacuation Pause) (young) 1703M->1246M(4096M), 0.0305550 secs]
