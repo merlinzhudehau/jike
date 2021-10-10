@@ -4,6 +4,8 @@ public class MergeLinkedList {
 
 
     public class ListNode {
+
+
         int val;
         ListNode next;
 
