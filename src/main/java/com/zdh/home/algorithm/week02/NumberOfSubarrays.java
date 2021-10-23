@@ -1,6 +1,6 @@
 package com.zdh.home.algorithm.week02;
 
-class Solution {
+class NumberOfSubarrays {
 
     public static void main(String[] args) {
 //        int[] ints = {2, 2, 2, 1, 2, 2, 1, 2, 2, 2};
